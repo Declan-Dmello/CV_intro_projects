@@ -8,7 +8,7 @@ object_detector = cv2.createBackgroundSubtractorMOG2(history=100, varThreshold=5
 tracked_objects = {}
 object_id = 0
 
-
+#test
 def get_centroid(x, y , w ,h):
     return x + w // 2 , y + h // 2
 
